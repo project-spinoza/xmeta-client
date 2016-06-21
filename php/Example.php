@@ -1,11 +1,11 @@
 <?php
-include 'xMetaData.php';
+include 'xMetaClient.php';
 
 $authParams = array();
 $authParams["db_host"] = "localhost"; 
 $authParams["db_port"] =  3306;
 $authParams["db_user"] = "root";
-$authParams["db_pass"] = "pass";
+$authParams["db_pass"] = "****";
 $authParams["db_type"] = "mysql";
 $xMetaClient = new XMetaClient("localhost", "8181");
 try{
